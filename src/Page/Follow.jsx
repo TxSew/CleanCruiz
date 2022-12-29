@@ -1,28 +1,15 @@
 import React from "react";
-import { Klarna, Mastercard, Netewer, Strpe , Amazon } from "../assets";
+import {Images} from './../../src/assets/Images.jsx'
+ import Image from './../components/items/Images.jsx'
+
+
+
 
 function Follow() {
   return (
     <div className="flex">
-      <div className="items-follow">
-        <Amazon width={"130px"} height={"77px"} />
-      </div>
-      <div className="items-follow">
-        <Mastercard width={'130px'} height={'77px'} />
-      </div>
-      <div className="items-follow">
-        <Klarna width={"130px"} height={"77px"} />
-      </div>
-      <div className="items-follow">
-        <Mastercard width={"130px"} height={"77px"} />
-      </div>
-      <div className="items-follow">
-        <Strpe />
-      </div>
-      <div className="items-follow">
-        <Netewer />
-      </div>
-    </div>
+      <Image  src={Images.mastercard}/> 
+  </div>
   );
 }
 
