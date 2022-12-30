@@ -23,6 +23,7 @@ function Header() {
             <li>
               <a href="/#">Contact</a>
             </li>
+
             <li className="border-2 border-red-500 border-t-2 rounded-[30px] leading-none   px-[20px]">
               <a href="/#">Login</a>
             </li>

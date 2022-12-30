@@ -1,7 +1,6 @@
-const Images = {
-   amazon : ('./amazon.svg'),
-    ebay: ('./ebay.svg').default,
-       mastercard : ('./mastercard.svg').default ,
+const Images = { amazon : ('./src/assets/amazon.svg'), ebay: ('./src/assets/ebay.svg'),
+   mastercard : ('./src/assets/mastercard.svg') , klarna: ('./src/assets/klarna.svg'), strpe:('./src/assets/strpe.svg'), netewer : ('./src/assets/netewer.svg'), googlePlay:('./src/assets/googlePlay.svg'), iphone: ('./src/assets/iphone.svg')
+      
 }
 
-export {Images}
+ export {Images}
